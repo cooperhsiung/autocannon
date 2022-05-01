@@ -1,3 +1,37 @@
+
+# @cooperhsiung/autocannon
+
+Protocol agnostic benchmarking tool, suitable for http,thrift etc.
+
+```
+npm i @cooperhsiung/autocannon -g --force
+```
+
+```javascript
+const UnpkgService = require('./gen-nodejs/UnpkgService');
+const ttypes = require('./gen-nodejs/unpkg_types');
+
+const req = new ttypes.PublishRequest();
+req.name = 'koa-thrift';
+req.version = 12;
+
+module.exports = {
+  PROTOCOL: 'thrift',
+  REQUEST: req,
+  SERVICE: UnpkgService,
+  METHOD: 'Publish'
+}
+```
+
+```
+PROVIDER=/Users/Cooper/Code/autocannon-ori/provider1.js autocannon http://127.0.0.1:9090
+```
+
+
+
+http usage is as follows.
+
+
 ![banner](autocannon-banner.png)
 
 # autocannon
