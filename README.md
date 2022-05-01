@@ -7,6 +7,8 @@ Protocol agnostic benchmarking tool, suitable for http,thrift etc.
 npm i @cooperhsiung/autocannon -g --force
 ```
 
+create a client file as the request provider
+
 ```javascript
 const UnpkgService = require('./gen-nodejs/UnpkgService');
 const ttypes = require('./gen-nodejs/unpkg_types');
@@ -23,11 +25,23 @@ module.exports = {
 }
 ```
 
+then start the thrift benckmark
+
 ```
-PROVIDER=/Users/Cooper/Code/autocannon-ori/provider1.js autocannon http://127.0.0.1:9090
+PROVIDER=/Users/Cooper/Code/autocannon-ex/provider.js autocannon http://127.0.0.1:9090
 ```
 
-<br/><br/>
+a benckmark about rpc servers, refer to [rpc-server-benchmark](https://github.com/cooperhsiung/rpc-server-benchmark)
+
+<br/>
+
+publish package
+
+```
+npm publish --registry=https://registry.npmjs.org --scope=cooperhsiung --access public
+```
+
+<br/><br/><br/>
 
 http usage is as follows.
 
