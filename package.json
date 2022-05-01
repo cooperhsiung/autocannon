@@ -1,6 +1,6 @@
 {
   "name": "@cooperhsiung/autocannon",
-  "version": "7.8.2",
+  "version": "7.8.3",
   "description": "Fast HTTP benchmarking tool written in Node.js",
   "main": "autocannon.js",
   "bin": {
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mcollina/autocannon.git"
+    "url": "git+https://github.com/cooperhsiung/autocannon.git"
   },
   "keywords": [
     "http",
@@ -34,9 +34,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mcollina/autocannon/issues"
+    "url": "https://github.com/cooperhsiung/autocannon/issues"
   },
-  "homepage": "https://github.com/mcollina/autocannon#readme",
+  "homepage": "https://github.com/cooperhsiung/autocannon#readme",
   "devDependencies": {
     "bl": "^5.0.0",
     "busboy": "^0.3.1",
