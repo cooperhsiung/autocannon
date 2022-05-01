@@ -1,5 +1,5 @@
 {
-  "name": "autocannon",
+  "name": "@cooperhsiung/autocannon",
   "version": "7.8.1",
   "description": "Fast HTTP benchmarking tool written in Node.js",
   "main": "autocannon.js",
@@ -70,6 +70,7 @@
     "retimer": "^3.0.0",
     "semver": "^7.3.2",
     "subarg": "^1.0.0",
+    "thrift": "^0.16.0",
     "timestring": "^6.0.0"
   }
 }
