@@ -1,5 +1,10 @@
 # @cooperhsiung/autocannon
 
+[![NPM Version][npm-image]][npm-url]
+
+[npm-image]: https://img.shields.io/npm/v/@cooperhsiung/autocannon.svg
+[npm-url]: https://www.npmjs.com/package/@cooperhsiung/autocannon
+
 Protocol agnostic benchmarking tool, suitable for http,thrift etc.
 
 ```
