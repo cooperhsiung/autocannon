@@ -38,7 +38,7 @@ module.exports = {
 then start the thrift benckmark
 
 ```
-CLIENT_PROVIDER=/Users/Cooper/Code/autocannon-ex/provider.js autocannon http://127.0.0.1:9090
+CLIENT_PROVIDER=/Users/Cooper/Code/autocannon-ex/provider.js autocannon 127.0.0.1:9090
 ```
 
 a benckmark about rpc servers, please refer to :point_right: [rpc-server-benchmark](https://github.com/cooperhsiung/rpc-server-benchmark)
